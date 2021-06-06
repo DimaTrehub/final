@@ -1,30 +1,21 @@
 *{
 	box-sizing: border-box;
+}
+body{
 	margin: 0;
 	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	position: relative;
 }
-
-header{
-	font-family: 'DM Sans', 'sans-serif';
-}
-.top__text{
-	position: absolute;
-	height: 33px;
-	left: 11.11%;
-	right: 11.11%;
-	top: 24px;
-}
-.text__right{
-	position: absolute;
-	height: 33px;
-	left: 67.41%;
-	right: 0%;
-	top: 0px;
+.container{
+	max-width: 1150px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 
 /*----TOP_TEXT----*/
 
-.about{
+/* .about{ 
 	position: absolute;
 	height: 26px;
 	left: 53.7%;
@@ -81,83 +72,70 @@ header{
 	color: #FFFFFF;
 	font-size: 24px;
 	text-align: left;
-}
+}*/
 
 /*----SLOGAN_TEXT----*/
 
 .slogan{
-	position: absolute;
-	height: 202px;
-	left: 11.11%;
-	right: 11.11%;
-	top: calc(50% - 202px/2 - 0.5px);
-	font-family: 'Archivo', 'sans-serif'
-}
-.slogan__text{
-	margin: 299px 160px;
-	width: 1120px;
-	height: 202px;
-}
-.text__white{
-	position: absolute;
-	height: 135px;
-	left: 0%;
-	right: 47.95%;
-	top: -3px;
-	font-family: Archivo;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 26px;
-	line-height: 67px;
-
+	margin: 160px 0px;
+	font-size: 36px;
 	letter-spacing: 1.12px;
+	max-width: 585px;
+}
 
-	color: #FFFFFF;
-}
-.top{
-	position: absolute;
-	height: 81px;
-	left: 0%;
-	right: 0%;
-	top: 0px;
-	border-radius: 0px;
-}
-.container{
-	width: 1400px;
-	height: 800px;
-	overflow: hidden;
-	background: #3098F3;
-}
-.zer-container{
-	background-color: #3098F3;
-	width: 1400px;
-	height: 80px;
-}
-.team__box{
-	position: absolute;
-	height: 392px;
-	left: 11.11%;
-	right: 11.11%;
-	top: 960px
-}
 .team{
 	background-color: #fff;
+	position: relative;
+	height: 400px;
+}
+h1 span{
+	color: #FFCC00;
+}
+header{
+	width: 100vw;
+	background-color: #3098F3;
+	padding: 20px;
+	position: absolute;
+	margin: 0 auto; 
+}
+.hero{
+	background-color: #3098F3;
+	height: 100vh;
+	width: 100vw;
+	padding-top: 100px;
+}
+.header__wrap{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.menu__item a{
+	color: #fff;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
 }
 .team__text{
-	position: absolute;
-	height: 303px;
-	left: 0%;
-	right: 58.04%;
-	top: 43px;
-
-	font-family: DM Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 26px;
-	line-height: 50px;
-	width: 470px;
-	height: 300px;
-
-
+	font-size: 24px;
 	color: #05051E;
+	line-height: 50px;
+	width: 450px;
+}
+.team__pics{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-height: 200px;
+	min-width: 100px;
+}
+.columbia__text{
+	right: 0;
+	background-color: #F2EAE2;
+	height: 420px;
+	width: 520px;
+	font-size: 32px;
+}
+.info p{
+	padding: 0 40px;
 }

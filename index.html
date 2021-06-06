@@ -5,53 +5,60 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Final</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="js/script.js">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/simple-adaptive-slider.min.css">
 </head>
 <body>
 	<header>
-		<div class="zer-container">
-			<div class="top">
-				<div class="top__text">
-					<div class="text__right">
-						<div class="about">
-							<p>About</p>
-						</div>
-						<div class="work">
-							<p>Work</p>
-						</div>
-						<div class="contact">
-							<p>Contact</p>
-						</div>
-						<div class="services">
-							<p>Services</p>
-						</div>
-						<div class="indicius">
-							<p>Indicius</p>
-						</div>
-					</div>
+		<div class="container">
+			<div class="header__wrap">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
 				</div>
+				<nav class="menu">
+					<ul class="menu__list">
+						<il class="menu__item"><a href="#">Work</a></il>
+						<il class="menu__item"><a href="#">Services</a></il>
+						<il class="menu__item"><a href="#">About</a></il>
+						<il class="menu__item"><a href="#">Contact</a></il>
+					</ul>
+				</nav>
 			</div>
 		</div>
 	</header>
-	<div class="container">
-		<div class="slogan">
-			<div class="slogan__text">
-				<div class="text__white">
-					<h1>Designing for a more human-centered world. Together.</h1>
+	<section class="hero">
+		<div class="container">
+			<div class="hero__wrap">
+				<div class="slogan">
+					<h1>Designing for a more human-centered world. <span>Together.</span> </h1>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	<div class="team">
-		<div class="team__box">
+		<div class="container">
 			<div class="team__text">
 				<h2>We’re a team of humans with the strategy, tools, and talent to build outstanding branding solutions and digital products.</h2>
 			</div>
+			<div class="team__pics">
+				<img src="img/team_pics.jpg" alt="">
+			</div>
 		</div>
 	</div>
+	<div class="slider">
+		<div class="slider__wrapper">
+			<div class="slider__items">
+				<div class="slider__item"><img src="img/Group 2.png" alt=""></div>
+			</div>
+		</div>
+	</div>
+  <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+  <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+</div>
+	<script src="js/script.js"></script>
+	<script src="js/simple-adaptive-slider.min.js"></script>
 </body>
 </html>
